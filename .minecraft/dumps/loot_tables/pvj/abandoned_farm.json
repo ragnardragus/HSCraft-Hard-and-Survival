@@ -1,0 +1,252 @@
+{
+  "pools": [
+    {
+      "name": "abandoned_farm",
+      "entries": [
+        {
+          "entryName": "minecraft:carrot",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:carrot"
+        },
+        {
+          "entryName": "minecraft:potato",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:potato"
+        },
+        {
+          "entryName": "minecraft:wheat_seeds",
+          "weight": 25,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:wheat_seeds"
+        },
+        {
+          "entryName": "minecraft:emerald",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:emerald"
+        },
+        {
+          "entryName": "minecraft:bone",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bone"
+        },
+        {
+          "entryName": "minecraft:wheat",
+          "weight": 25,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:wheat"
+        },
+        {
+          "entryName": "minecraft:rotten_flesh",
+          "weight": 25,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:rotten_flesh"
+        },
+        {
+          "entryName": "minecraft:saddle",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:saddle"
+        },
+        {
+          "entryName": "minecraft:iron_horse_armor",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:iron_horse_armor"
+        },
+        {
+          "entryName": "minecraft:golden_horse_armor",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:golden_horse_armor"
+        },
+        {
+          "entryName": "minecraft:diamond_horse_armor",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:diamond_horse_armor"
+        },
+        {
+          "entryName": "minecraft:apple",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:apple"
+        },
+        {
+          "entryName": "empty",
+          "weight": 15,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 4.0
+      }
+    },
+    {
+      "name": "abandoned_farm1",
+      "entries": [
+        {
+          "entryName": "minecraft:bone",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bone"
+        },
+        {
+          "entryName": "minecraft:stick",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:stick"
+        },
+        {
+          "entryName": "minecraft:rotten_flesh",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:rotten_flesh"
+        },
+        {
+          "entryName": "minecraft:string",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:string"
+        },
+        {
+          "entryName": "minecraft:dirt",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:dirt"
+        }
+      ],
+      "rolls": 4.0
+    }
+  ]
+}

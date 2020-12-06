@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "minecraft:book",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "chance": 0.8,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "entryName": "dungeontactics:magic_scroll",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "chance": 0.8,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "dungeontactics:magic_scroll"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

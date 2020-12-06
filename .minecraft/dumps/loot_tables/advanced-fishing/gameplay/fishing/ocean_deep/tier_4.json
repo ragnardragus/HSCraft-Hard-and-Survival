@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "name": "fishing_ocean_deep_tier_4",
+      "entries": [
+        {
+          "entryName": "SPONGE_EATER",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 21.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "advanced-fishing:fish"
+        },
+        {
+          "entryName": "ANGLER_FISH",
+          "weight": 70,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 20.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "advanced-fishing:fish"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

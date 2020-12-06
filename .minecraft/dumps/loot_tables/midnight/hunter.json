@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "name": "midnight:hunter",
+      "entries": [
+        {
+          "entryName": "midnight:hunter_wing",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "midnight:hunter_wing"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

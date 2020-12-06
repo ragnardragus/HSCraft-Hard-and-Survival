@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "name": "fishing_end_tier_3",
+      "entries": [
+        {
+          "entryName": "CHORUS_KOI",
+          "weight": 100,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 15.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "advanced-fishing:fish"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

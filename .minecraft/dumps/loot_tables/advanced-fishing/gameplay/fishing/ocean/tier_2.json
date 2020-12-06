@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "name": "fishing_ocean_tier_2",
+      "entries": [
+        {
+          "entryName": "BLUE_JELLYFISH",
+          "weight": 50,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "advanced-fishing:fish"
+        },
+        {
+          "entryName": "puffer",
+          "weight": 50,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:fish"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

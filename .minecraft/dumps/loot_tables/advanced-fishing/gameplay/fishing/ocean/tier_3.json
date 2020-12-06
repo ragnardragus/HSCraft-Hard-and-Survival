@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "name": "fishing_ocean_tier_3",
+      "entries": [
+        {
+          "entryName": "clown",
+          "weight": 100,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:fish"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

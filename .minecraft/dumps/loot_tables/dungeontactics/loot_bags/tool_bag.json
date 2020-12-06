@@ -1,0 +1,669 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "minecraft:wooden_axe",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:wooden_axe"
+        },
+        {
+          "entryName": "minecraft:wooden_pickaxe",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:wooden_pickaxe"
+        },
+        {
+          "entryName": "minecraft:wooden_shovel",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:wooden_shovel"
+        },
+        {
+          "entryName": "minecraft:wooden_hoe",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:wooden_hoe"
+        },
+        {
+          "entryName": "minecraft:stone_axe",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:stone_axe"
+        },
+        {
+          "entryName": "minecraft:stone_pickaxe",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:stone_pickaxe"
+        },
+        {
+          "entryName": "minecraft:stone_shovel",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:stone_shovel"
+        },
+        {
+          "entryName": "minecraft:stone_hoe",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:stone_hoe"
+        },
+        {
+          "entryName": "minecraft:iron_axe",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:iron_axe"
+        },
+        {
+          "entryName": "minecraft:iron_pickaxe",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:iron_pickaxe"
+        },
+        {
+          "entryName": "minecraft:iron_shovel",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:iron_shovel"
+        },
+        {
+          "entryName": "minecraft:iron_hoe",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:iron_hoe"
+        },
+        {
+          "entryName": "minecraft:golden_axe",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:golden_axe"
+        },
+        {
+          "entryName": "minecraft:golden_pickaxe",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:golden_pickaxe"
+        },
+        {
+          "entryName": "minecraft:golden_shovel",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:golden_shovel"
+        },
+        {
+          "entryName": "minecraft:golden_hoe",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:golden_hoe"
+        },
+        {
+          "entryName": "minecraft:diamond_axe",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:diamond_axe"
+        },
+        {
+          "entryName": "minecraft:diamond_pickaxe",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:diamond_pickaxe"
+        },
+        {
+          "entryName": "minecraft:diamond_shovel",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:diamond_shovel"
+        },
+        {
+          "entryName": "minecraft:diamond_hoe",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:diamond_hoe"
+        },
+        {
+          "entryName": "minecraft:fishing_rod",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:fishing_rod"
+        },
+        {
+          "entryName": "minecraft:shears",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:shears"
+        },
+        {
+          "entryName": "minecraft:flint_and_steel",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:flint_and_steel"
+        },
+        {
+          "entryName": "minecraft:lead",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:lead"
+        },
+        {
+          "entryName": "minecraft:name_tag",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:name_tag"
+        },
+        {
+          "entryName": "minecraft:compass",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:compass"
+        },
+        {
+          "entryName": "minecraft:clock",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:clock"
+        },
+        {
+          "entryName": "minecraft:bucket",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:bucket"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0
+      }
+    }
+  ]
+}

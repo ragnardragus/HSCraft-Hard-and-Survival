@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "minecraft:apple",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:apple"
+        },
+        {
+          "entryName": "minecraft:cooked_chicken",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:cooked_chicken"
+        },
+        {
+          "entryName": "minecraft:cookie",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:cookie"
+        },
+        {
+          "entryName": "dungeontactics:mince_pie",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:mince_pie"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "name": "fishing_end_tier_2",
+      "entries": [
+        {
+          "entryName": "pearl_sardine",
+          "weight": 100,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 14.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "advanced-fishing:fish"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

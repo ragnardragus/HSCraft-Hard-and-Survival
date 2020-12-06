@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "name": "nether_bridge_blazing_fishing_pole",
+      "entries": [
+        {
+          "entryName": "BLAZING FISHING POLE",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.25
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "advanced-fishing:blazing_fishing_pole"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

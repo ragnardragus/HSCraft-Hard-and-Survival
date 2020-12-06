@@ -1,0 +1,184 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "minecraft:bone",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bone"
+        },
+        {
+          "entryName": "minecraft:emerald",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:emerald"
+        },
+        {
+          "entryName": "dungeontactics:heart_golden",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "dungeontactics:heart_golden"
+        }
+      ],
+      "rolls": 2.0
+    },
+    {
+      "name": "charms",
+      "entries": [
+        {
+          "entryName": "dungeontactics:charm_toxic",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "dungeontactics:charm_toxic"
+        },
+        {
+          "entryName": "dungeontactics:charm_sapping",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "dungeontactics:charm_sapping"
+        },
+        {
+          "entryName": "dungeontactics:charm_heavy",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "dungeontactics:charm_heavy"
+        },
+        {
+          "entryName": "dungeontactics:charm_emaciated",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "dungeontactics:charm_emaciated"
+        },
+        {
+          "entryName": "dungeontactics:charm_unintelligible",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "dungeontactics:charm_unintelligible"
+        },
+        {
+          "entryName": "dungeontactics:charm_darkened",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "dungeontactics:charm_darkened"
+        },
+        {
+          "entryName": "dungeontactics:charm_famine",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "dungeontactics:charm_famine"
+        },
+        {
+          "entryName": "dungeontactics:charm_barren",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "dungeontactics:charm_barren"
+        },
+        {
+          "entryName": "dungeontactics:charm_searing",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "dungeontactics:charm_searing"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 1.0
+      }
+    }
+  ]
+}

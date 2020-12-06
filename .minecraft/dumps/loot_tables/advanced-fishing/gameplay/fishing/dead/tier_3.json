@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "name": "fishing_dead_tier_3",
+      "entries": [
+        {
+          "entryName": "CURSED_KOI",
+          "weight": 100,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 41.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "advanced-fishing:fish"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

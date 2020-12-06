@@ -1,0 +1,20 @@
+{
+    "autoHide.autoHideSideBar": false,
+    "files.exclude": {
+        ".minecraft/logs": true,
+        ".minecraft/saves": true,
+        ".minecraft/screenshots": true,
+        ".minecraft/gallery_1.0.0": true,
+        ".minecraft/crash-reports": true,
+        ".minecraft/llibrary": true,
+        ".minecraft/mods/1.12.2": true,
+        ".minecraft/mods/memory_repo": true,
+        ".minecraft/.mixin.out": true,
+        ".minecraft/bendspacks": true,
+        ".minecraft/betweenlands_gallery": true,
+        ".minecraft/usercache.json": true,
+        ".minecraft/usernamecache.json": true,
+        ".minecraft/**.log": true,
+        ".minecraft/WailaErrorOutput.txt": true
+    }
+}

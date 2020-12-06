@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "name": "fishing_lava_nether_tier_3",
+      "entries": [
+        {
+          "entryName": "QUARTZ_CHUB",
+          "weight": 50,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 10.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "advanced-fishing:fish"
+        },
+        {
+          "entryName": "FUNGI_CATFISH",
+          "weight": 50,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 29.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "advanced-fishing:fish"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

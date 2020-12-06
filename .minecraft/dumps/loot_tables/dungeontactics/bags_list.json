@@ -1,0 +1,73 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "dungeontactics:bag_food",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:bag_food"
+        },
+        {
+          "entryName": "dungeontactics:bag_arbour",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:bag_arbour"
+        },
+        {
+          "entryName": "dungeontactics:bag_ore",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:bag_ore"
+        },
+        {
+          "entryName": "dungeontactics:bag_tool",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:bag_tool"
+        },
+        {
+          "entryName": "dungeontactics:bag_book",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:bag_book"
+        },
+        {
+          "entryName": "dungeontactics:bag_quiver",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:bag_quiver"
+        },
+        {
+          "entryName": "dungeontactics:bag_magic",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:bag_magic"
+        },
+        {
+          "entryName": "dungeontactics:bag_potion",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:bag_potion"
+        },
+        {
+          "entryName": "dungeontactics:bag_record",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:bag_record"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "minecraft:iron_ingot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "entryName": "minecraft:gold_ingot",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "entryName": "minecraft:bread",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bread"
+        },
+        {
+          "entryName": "minecraft:apple",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:apple"
+        },
+        {
+          "entryName": "minecraft:sapling",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:sapling"
+        },
+        {
+          "entryName": "minecraft:saddle",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:saddle"
+        },
+        {
+          "entryName": "DT:IronCutlass",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:iron_cutlass"
+        },
+        {
+          "entryName": "DT:IronHammer",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:iron_hammer"
+        },
+        {
+          "entryName": "DT:IronBattleaxe",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:iron_battleaxe"
+        },
+        {
+          "entryName": "DT:IronGlaive",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:iron_glaive"
+        },
+        {
+          "entryName": "DT:IronKnife",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:iron_knife"
+        },
+        {
+          "entryName": "DT:IronCestus",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:iron_cestus"
+        },
+        {
+          "entryName": "DT:IronShield",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:iron_shield"
+        },
+        {
+          "entryName": "DT:IronRing",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:iron_ring"
+        },
+        {
+          "entryName": "DT:DuctTape",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:ducttape"
+        },
+        {
+          "entryName": "megaloot:weaponcase_common",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "megaloot:weaponcase_common"
+        },
+        {
+          "entryName": "megaloot:weaponcase_rare",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "megaloot:weaponcase_rare"
+        }
+      ],
+      "rolls": {
+        "min": 3.0,
+        "max": 8.0
+      }
+    }
+  ]
+}

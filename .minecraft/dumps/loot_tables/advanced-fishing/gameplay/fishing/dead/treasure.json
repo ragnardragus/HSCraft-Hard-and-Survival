@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "name": "fishing_dead_treasure",
+      "entries": [
+        {
+          "entryName": "SKELETON SKULL",
+          "weight": 35,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:skull"
+        },
+        {
+          "entryName": "ZOMBIE SKULL",
+          "weight": 35,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:skull"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

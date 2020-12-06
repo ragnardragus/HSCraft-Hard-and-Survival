@@ -1,0 +1,30 @@
+{
+	"name" : "drm3:loot2",
+	"loot_rules" : [
+        {
+			"level" : [2, 3],
+			"loot" : [
+                {"data" : {"name" : "dungeontactics:bag_food", "min" : 1, "max" : 4}, "weight" : 4},
+                {"data" : {"name" : "dungeontactics:bag_quiver", "min" : 1, "max" : 1}, "weight" : 4}
+			],
+			"each" : true,
+			"quantity" : 6
+		},
+		{
+            "level" : 2,
+            "loot" : [
+                {"data" : {"name" : "minecraft:iron_ingot", "min" : 1, "max" : 4}, "weight" : 3}
+            ],
+            "each" : true,
+			"quantity" : 4
+        },
+        {
+            "level" : 2,
+            "loot" : [
+                {"data" : {"name" : "dungeontactics:bag_record", "min" : 1, "max" : 1}, "weight" : 3}
+            ],
+            "each" : true,
+            "quantity" : 1
+        }
+    ]
+}

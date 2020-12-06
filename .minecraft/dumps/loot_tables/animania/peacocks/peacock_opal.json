@@ -1,0 +1,105 @@
+{
+  "pools": [
+    {
+      "name": "feather",
+      "entries": [
+        {
+          "entryName": "animania:opal_peacock_feather",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "properties": {
+                "animania:is_male": true
+              },
+              "entity": "this",
+              "condition": "minecraft:entity_properties"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "animania:add_more",
+              "conditions": [
+                {
+                  "properties": {
+                    "animania:fed": true
+                  },
+                  "entity": "this",
+                  "condition": "minecraft:entity_properties"
+                }
+              ]
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "animania:add_more",
+              "conditions": [
+                {
+                  "properties": {
+                    "animania:watered": true
+                  },
+                  "entity": "this",
+                  "condition": "minecraft:entity_properties"
+                }
+              ]
+            }
+          ],
+          "name": "animania:opal_peacock_feather"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "meat",
+      "entries": [
+        {
+          "entryName": "animania:raw_peacock",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:furnace_smelt",
+              "conditions": [
+                {
+                  "properties": {
+                    "minecraft:on_fire": true
+                  },
+                  "entity": "this",
+                  "condition": "minecraft:entity_properties"
+                }
+              ]
+            }
+          ],
+          "name": "animania:raw_peacock"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

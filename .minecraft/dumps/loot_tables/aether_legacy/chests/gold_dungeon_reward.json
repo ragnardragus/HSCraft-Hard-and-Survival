@@ -1,0 +1,76 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "aeble:bubble_ring",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aeble:bubble_ring"
+        },
+        {
+          "entryName": "aether_legacy:vampire_blade",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:vampire_blade"
+        },
+        {
+          "entryName": "aeble:chests/gold_dungeon_reward_sub0",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "aeble:chests/gold_dungeon_reward_sub0"
+        },
+        {
+          "entryName": "aeble:chests/gold_dungeon_reward_sub1",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "aeble:chests/gold_dungeon_reward_sub1"
+        },
+        {
+          "entryName": "aether_legacy:life_shard",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:life_shard"
+        },
+        {
+          "entryName": "aeble:chests/gold_dungeon_reward_sub2",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "aeble:chests/gold_dungeon_reward_sub2"
+        },
+        {
+          "entryName": "aeble:chests/gold_dungeon_reward_sub3",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "aeble:chests/gold_dungeon_reward_sub3"
+        },
+        {
+          "entryName": "aeble:chests/gold_dungeon_reward_sub4",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "aeble:chests/gold_dungeon_reward_sub4"
+        },
+        {
+          "entryName": "aether_legacy:obsidian_chestplate",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:obsidian_chestplate"
+        }
+      ],
+      "rolls": {
+        "min": 5.0,
+        "max": 6.0
+      }
+    }
+  ]
+}

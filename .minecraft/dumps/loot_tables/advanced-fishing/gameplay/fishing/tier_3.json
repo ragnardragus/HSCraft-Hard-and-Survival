@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "name": "fishing_tier_3",
+      "entries": [
+        {
+          "entryName": "CATFISH",
+          "weight": 50,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 36.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "advanced-fishing:fish"
+        },
+        {
+          "entryName": "PIKE",
+          "weight": 50,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 37.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "advanced-fishing:fish"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

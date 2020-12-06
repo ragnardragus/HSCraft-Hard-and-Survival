@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "name": "fishing_cave_25",
+      "entries": [
+        {
+          "entryName": "CRYSTAL_MULLET",
+          "weight": 50,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 31.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "advanced-fishing:fish"
+        },
+        {
+          "entryName": "CHARGED_BULLHEAD",
+          "weight": 50,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 32.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "advanced-fishing:fish"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

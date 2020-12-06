@@ -1,0 +1,18 @@
+[
+{
+"price_to_sell":100,
+"price_to_buy":1440,
+"item":"minecraft:leather_boots",
+"data":0,
+"nbt":"{display:{Lore:[\"A legendary boots\"]}}",
+"village_profession":"minecraft:priest",
+"career":"cleric"
+},
+{
+    "price_to_sell":20,
+    "price_to_buy":40,
+    "item":"iceandfire:sapphire_gem",
+    "village_profession":"iceandfire:fisherman",
+    "career":"Fisherman"
+}
+]

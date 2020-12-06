@@ -1,0 +1,6 @@
+
+{
+  "Name": "manticore",
+  "Registry ID": "lycanitesmobs:manticore",
+  "Class": "com.lycanitesmobs.core.entity.creature.EntityManticore"
+}

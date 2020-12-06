@@ -1,0 +1,60 @@
+{
+  "pools": [
+    {
+      "name": "fishing_lava_treasure",
+      "entries": [
+        {
+          "entryName": "WITHER SKULL",
+          "weight": 60,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:skull"
+        },
+        {
+          "entryName": "BLAZING FISHING POLE",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.25
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "advanced-fishing:blazing_fishing_pole"
+        },
+        {
+          "entryName": "BLAZING FISHING POLE ENCHANTED",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.25
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "advanced-fishing:blazing_fishing_pole"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

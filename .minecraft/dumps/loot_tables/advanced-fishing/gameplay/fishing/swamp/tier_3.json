@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "name": "fishing_swamp_tier_3",
+      "entries": [
+        {
+          "entryName": "MUD_TUNA",
+          "weight": 100,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "advanced-fishing:fish"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

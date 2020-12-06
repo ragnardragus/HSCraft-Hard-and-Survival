@@ -1,0 +1,31 @@
+{
+  "pools": [
+    {
+      "name": "fishing_end",
+      "entries": [
+        {
+          "entryName": "advanced-fishing:gameplay/fishing/tier_1",
+          "weight": 52,
+          "quality": 4,
+          "type": "loot_table",
+          "name": "advanced-fishing:gameplay/fishing/tier_1"
+        },
+        {
+          "entryName": "advanced-fishing:gameplay/fishing/tier_2",
+          "weight": 32,
+          "quality": 7,
+          "type": "loot_table",
+          "name": "advanced-fishing:gameplay/fishing/tier_2"
+        },
+        {
+          "entryName": "advanced-fishing:gameplay/fishing/mushroom/tier_3",
+          "weight": 16,
+          "quality": 6,
+          "type": "loot_table",
+          "name": "advanced-fishing:gameplay/fishing/mushroom/tier_3"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "name": "fishing_cave_50",
+      "entries": [
+        {
+          "entryName": "SPECULAR_SNAPPER",
+          "weight": 100,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 6.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "advanced-fishing:fish"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

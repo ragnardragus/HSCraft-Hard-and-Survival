@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "name": "fishing_mushroom_tier_3",
+      "entries": [
+        {
+          "entryName": "RED_SHROOMFIN",
+          "weight": 50,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 27.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "advanced-fishing:fish"
+        },
+        {
+          "entryName": "BROWN_SHROOMFIN",
+          "weight": 50,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 28.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "advanced-fishing:fish"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

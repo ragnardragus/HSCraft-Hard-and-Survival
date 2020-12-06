@@ -1,0 +1,6 @@
+
+{
+  "Name": "yeti",
+  "Registry ID": "lycanitesmobs:yeti",
+  "Class": "com.lycanitesmobs.core.entity.creature.EntityYeti"
+}

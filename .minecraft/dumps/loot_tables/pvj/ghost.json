@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "name": "ghost",
+      "entries": [
+        {
+          "entryName": "pvj:spectral_wrappings",
+          "weight": 1,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "pvj:spectral_wrappings"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "name": "gorgon",
+      "entries": [
+        {
+          "entryName": "iceandfire:gorgon_head",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": 0.0,
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "iceandfire:gorgon_head"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "nemesissystem_skeleton",
+  "Registry ID": "nemesissystem:nemesissystem_skeleton",
+  "Class": "net.torocraft.nemesissystem.entities.skeleton.EntitySkeletonNemesis"
+}

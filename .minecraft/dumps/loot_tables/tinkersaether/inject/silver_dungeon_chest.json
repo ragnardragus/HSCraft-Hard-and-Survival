@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "tinkersaether:valkyrie_nugget",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "tinkersaether:valkyrie_nugget"
+        },
+        {
+          "entryName": "tinkersaether:valkyrie_ingot",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "tinkersaether:valkyrie_ingot"
+        },
+        {
+          "entryName": "empty",
+          "weight": 65,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

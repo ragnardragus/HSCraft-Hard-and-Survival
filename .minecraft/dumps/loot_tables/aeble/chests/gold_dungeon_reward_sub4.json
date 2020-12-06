@@ -1,0 +1,17 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "aether_legacy:phoenix_leggings",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:phoenix_leggings"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

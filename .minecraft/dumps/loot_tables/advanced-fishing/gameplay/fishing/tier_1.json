@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "name": "fishing_tier_1",
+      "entries": [
+        {
+          "entryName": "cod",
+          "weight": 50,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:fish"
+        },
+        {
+          "entryName": "SQUID",
+          "weight": 50,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 23.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "advanced-fishing:fish"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

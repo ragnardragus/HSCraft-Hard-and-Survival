@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "name": "fishing_ocean_deep_tier_3",
+      "entries": [
+        {
+          "entryName": "clown",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:fish"
+        },
+        {
+          "entryName": "ABYSSAL_LURKER",
+          "weight": 80,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 33.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "advanced-fishing:fish"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

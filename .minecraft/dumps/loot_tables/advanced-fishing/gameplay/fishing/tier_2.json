@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "name": "fishing_tier_2",
+      "entries": [
+        {
+          "entryName": "salmon",
+          "weight": 100,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:fish"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

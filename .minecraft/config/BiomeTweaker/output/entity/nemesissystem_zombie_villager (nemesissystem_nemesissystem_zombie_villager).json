@@ -1,0 +1,6 @@
+
+{
+  "Name": "nemesissystem_zombie_villager",
+  "Registry ID": "nemesissystem:nemesissystem_zombie_villager",
+  "Class": "net.torocraft.nemesissystem.entities.zombieVillager.EntityZombieVillagerNemesis"
+}

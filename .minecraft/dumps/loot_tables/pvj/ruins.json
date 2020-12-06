@@ -1,0 +1,192 @@
+{
+  "pools": [
+    {
+      "name": "ruins",
+      "entries": [
+        {
+          "entryName": "minecraft:cobblestone",
+          "weight": 25,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:cobblestone"
+        },
+        {
+          "entryName": "minecraft:emerald",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:emerald"
+        },
+        {
+          "entryName": "minecraft:bone",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bone"
+        },
+        {
+          "entryName": "minecraft:coal",
+          "weight": 25,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:coal"
+        },
+        {
+          "entryName": "minecraft:iron_ingot",
+          "weight": 25,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "entryName": "minecraft:apple",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:apple"
+        },
+        {
+          "entryName": "empty",
+          "weight": 15,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 4.0
+      }
+    },
+    {
+      "name": "ruins1",
+      "entries": [
+        {
+          "entryName": "minecraft:bone",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bone"
+        },
+        {
+          "entryName": "minecraft:stick",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:stick"
+        },
+        {
+          "entryName": "minecraft:rotten_flesh",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:rotten_flesh"
+        },
+        {
+          "entryName": "minecraft:string",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:string"
+        },
+        {
+          "entryName": "minecraft:dirt",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:dirt"
+        }
+      ],
+      "rolls": 4.0
+    }
+  ]
+}

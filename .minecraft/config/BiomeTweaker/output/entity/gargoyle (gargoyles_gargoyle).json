@@ -1,0 +1,6 @@
+
+{
+  "Name": "gargoyle",
+  "Registry ID": "gargoyles:gargoyle",
+  "Class": "net.minecraft.entity.monster.EntityGargoyle"
+}

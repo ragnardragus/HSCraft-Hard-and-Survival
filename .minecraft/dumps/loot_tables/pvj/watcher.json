@@ -1,0 +1,32 @@
+{
+  "pools": [
+    {
+      "name": "ghost",
+      "entries": [
+        {
+          "entryName": "minecraft:ghast_tear",
+          "weight": 1,
+          "quality": 1,
+          "conditions": [
+            {
+              "chance": 0.8,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:ghast_tear"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 1.0
+      }
+    }
+  ]
+}

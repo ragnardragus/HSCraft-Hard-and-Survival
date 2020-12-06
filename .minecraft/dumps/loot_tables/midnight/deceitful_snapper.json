@@ -1,0 +1,17 @@
+{
+  "pools": [
+    {
+      "name": "midnight:stinger",
+      "entries": [
+        {
+          "entryName": "midnight:deceitful_snapper",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "midnight:deceitful_snapper"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

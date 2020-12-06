@@ -1,0 +1,6 @@
+
+{
+  "Name": "nemesissystem_stray",
+  "Registry ID": "nemesissystem:nemesissystem_stray",
+  "Class": "net.torocraft.nemesissystem.entities.stray.EntityStrayNemesis"
+}

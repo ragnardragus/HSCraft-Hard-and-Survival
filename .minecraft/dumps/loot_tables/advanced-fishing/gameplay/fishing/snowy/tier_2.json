@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "name": "fishing_snowy_tier_2",
+      "entries": [
+        {
+          "entryName": "SNOWY_WALLEYE",
+          "weight": 100,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 22.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "advanced-fishing:fish"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

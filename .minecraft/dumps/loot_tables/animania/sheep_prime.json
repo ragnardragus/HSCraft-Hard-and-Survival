@@ -1,0 +1,95 @@
+{
+  "pools": [
+    {
+      "name": "wool",
+      "entries": [
+        {
+          "entryName": "minecraft:wool",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "animania:wool_color"
+            }
+          ],
+          "name": "minecraft:wool"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "meat",
+      "entries": [
+        {
+          "entryName": "animania:raw_prime_mutton",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.5,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "animania:add_more",
+              "conditions": [
+                {
+                  "properties": {
+                    "animania:fed": true
+                  },
+                  "entity": "this",
+                  "condition": "minecraft:entity_properties"
+                }
+              ]
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "animania:add_more",
+              "conditions": [
+                {
+                  "properties": {
+                    "animania:watered": true
+                  },
+                  "entity": "this",
+                  "condition": "minecraft:entity_properties"
+                }
+              ]
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            },
+            {
+              "function": "minecraft:furnace_smelt",
+              "conditions": [
+                {
+                  "properties": {
+                    "minecraft:on_fire": true
+                  },
+                  "entity": "this",
+                  "condition": "minecraft:entity_properties"
+                }
+              ]
+            }
+          ],
+          "name": "animania:raw_prime_mutton"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "name": "fishing_snowy_tier_4",
+      "entries": [
+        {
+          "entryName": "GLACIER_ANCHOVY",
+          "weight": 100,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 35.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "advanced-fishing:fish"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

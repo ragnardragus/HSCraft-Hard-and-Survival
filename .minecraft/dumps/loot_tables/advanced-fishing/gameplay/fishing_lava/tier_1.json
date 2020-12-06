@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "name": "fishing_lava_tier_1",
+      "entries": [
+        {
+          "entryName": "OBSIDIAN_BREAM",
+          "weight": 100,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 8.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "advanced-fishing:fish"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

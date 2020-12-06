@@ -1,0 +1,297 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "minecraft:iron_ingot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "entryName": "minecraft:gold_ingot",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "entryName": "minecraft:redstone",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 9.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:redstone"
+        },
+        {
+          "entryName": "minecraft:coal",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:coal"
+        },
+        {
+          "entryName": "minecraft:bread",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bread"
+        },
+        {
+          "entryName": "minecraft:apple",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:apple"
+        },
+        {
+          "entryName": "minecraft:iron_pickaxe",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:iron_pickaxe"
+        },
+        {
+          "entryName": "minecraft:book",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "entryName": "DT:ThrowingKnife",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "dungeontactics:throwing_knife"
+        },
+        {
+          "entryName": "DT:SlownessKnife",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "dungeontactics:throwing_knife_slowness"
+        },
+        {
+          "entryName": "DT:WeaknessKnife",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "dungeontactics:throwing_knife_weakness"
+        },
+        {
+          "entryName": "DT:PoisonKnife",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "dungeontactics:throwing_knife_poison"
+        },
+        {
+          "entryName": "DT:CausticKnife",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "dungeontactics:throwing_knife_caustic"
+        },
+        {
+          "entryName": "DT:IronShield",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:iron_shield"
+        },
+        {
+          "entryName": "DT:DuctTape",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:ducttape"
+        },
+        {
+          "entryName": "DT:HeartJar",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "dungeontactics:heart_jar"
+        },
+        {
+          "entryName": "DT:MagicScroll",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 10.0,
+                "max": 39.0
+              },
+              "treasure": false,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "dungeontactics:magic_scroll"
+        },
+        {
+          "entryName": "megaloot:weaponcase_common",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "megaloot:weaponcase_common"
+        },
+        {
+          "entryName": "megaloot:weaponcase_rare",
+          "weight": 7,
+          "quality": 0,
+          "type": "item",
+          "name": "megaloot:weaponcase_rare"
+        },
+        {
+          "entryName": "megaloot:weaponcase_epic",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "megaloot:weaponcase_epic"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 4.0
+      }
+    },
+    {
+      "name": "moms_spaghetti",
+      "entries": [
+        {
+          "entryName": "moms_spaghetti",
+          "weight": 1,
+          "quality": 1,
+          "type": "item",
+          "name": "tconstruct:spaghetti"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.05,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    }
+  ]
+}

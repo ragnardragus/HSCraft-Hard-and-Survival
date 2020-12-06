@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "name": "fishing_jungle_tier_3",
+      "entries": [
+        {
+          "entryName": "SPARKLING_EEL",
+          "weight": 100,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 18.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "advanced-fishing:fish"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

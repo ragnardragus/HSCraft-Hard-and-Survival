@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "name": "meat",
+      "entries": [
+        {
+          "entryName": "animania:raw_frog_legs",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 0.3
+              },
+              "function": "minecraft:looting_enchant"
+            },
+            {
+              "function": "minecraft:furnace_smelt",
+              "conditions": [
+                {
+                  "properties": {
+                    "minecraft:on_fire": true
+                  },
+                  "entity": "this",
+                  "condition": "minecraft:entity_properties"
+                }
+              ]
+            }
+          ],
+          "name": "animania:raw_frog_legs"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

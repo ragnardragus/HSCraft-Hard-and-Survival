@@ -1,0 +1,600 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "minecraft:diamond",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:diamond"
+        },
+        {
+          "entryName": "minecraft:iron_ingot",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "entryName": "minecraft:gold_ingot",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "entryName": "minecraft:golden_sword",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:golden_sword"
+        },
+        {
+          "entryName": "minecraft:golden_chestplate",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:golden_chestplate"
+        },
+        {
+          "entryName": "minecraft:flint_and_steel",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:flint_and_steel"
+        },
+        {
+          "entryName": "minecraft:nether_wart",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:nether_wart"
+        },
+        {
+          "entryName": "minecraft:saddle",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:saddle"
+        },
+        {
+          "entryName": "minecraft:golden_horse_armor",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:golden_horse_armor"
+        },
+        {
+          "entryName": "minecraft:iron_horse_armor",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:iron_horse_armor"
+        },
+        {
+          "entryName": "minecraft:diamond_horse_armor",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:diamond_horse_armor"
+        },
+        {
+          "entryName": "minecraft:obsidian",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:obsidian"
+        },
+        {
+          "entryName": "quark:rune",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": {
+                "min": 0.0,
+                "max": 15.0
+              },
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "quark:rune"
+        },
+        {
+          "entryName": "DT:GoldenCutlass",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:golden_cutlass"
+        },
+        {
+          "entryName": "DT:GoldenHammer",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:golden_hammer"
+        },
+        {
+          "entryName": "DT:GoldenBattleaxe",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:golden_battleaxe"
+        },
+        {
+          "entryName": "DT:GoldenGlaive",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:golden_glaive"
+        },
+        {
+          "entryName": "DT:GoldenKnife",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:golden_knife"
+        },
+        {
+          "entryName": "DT:GoldenCestus",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:golden_cestus"
+        },
+        {
+          "entryName": "DT:GoldenShield",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:golden_shield"
+        },
+        {
+          "entryName": "DT:GoldRing",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 10.0,
+                "max": 20.0
+              },
+              "treasure": false,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "dungeontactics:golden_ring"
+        },
+        {
+          "entryName": "DT:HeartJar",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "dungeontactics:heart_golden"
+        },
+        {
+          "entryName": "DT:HammerLeaping",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 20.0,
+                "max": 39.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "dungeontactics:master_hammer_leap"
+        },
+        {
+          "entryName": "DT:HammerSmash",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 20.0,
+                "max": 39.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "dungeontactics:master_hammer_smash"
+        },
+        {
+          "entryName": "DT:CutlassRiposte",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 20.0,
+                "max": 39.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "dungeontactics:master_cutlass_riposte"
+        },
+        {
+          "entryName": "DT:CutlassPierce",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 20.0,
+                "max": 39.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "dungeontactics:master_cutlass_pierce"
+        },
+        {
+          "entryName": "DT:KnifeStrike",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 20.0,
+                "max": 39.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "dungeontactics:master_knife_multistrike"
+        },
+        {
+          "entryName": "DT:KnifeSmoke",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 20.0,
+                "max": 39.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "dungeontactics:master_knife_smokebomb"
+        },
+        {
+          "entryName": "DT:CestusRoar",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 20.0,
+                "max": 39.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "dungeontactics:master_cestus_roar"
+        },
+        {
+          "entryName": "DT:CestusPummel",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 20.0,
+                "max": 39.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "dungeontactics:master_cestus_pummel"
+        },
+        {
+          "entryName": "DT:HighStriker",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.25
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "dungeontactics:high_striker"
+        },
+        {
+          "entryName": "DT:Wackerjab",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.25
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "dungeontactics:wackerjab"
+        },
+        {
+          "entryName": "DT:Taser",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.25
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "dungeontactics:taser"
+        },
+        {
+          "entryName": "DT:Claws",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.25
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "dungeontactics:claws"
+        },
+        {
+          "entryName": "DT:LithenScythe",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.25
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "dungeontactics:lithen_scythe"
+        },
+        {
+          "entryName": "DT:AlchemistsBrew",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.25
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "dungeontactics:alchemist_brew"
+        },
+        {
+          "entryName": "DT:PirateHook",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.25
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "dungeontactics:pirate_hook"
+        },
+        {
+          "entryName": "DT:CoinCannon",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.25
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "dungeontactics:coin_cannon"
+        },
+        {
+          "entryName": "DT:BackfireCannon",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.25
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "dungeontactics:backfire_cannon"
+        },
+        {
+          "entryName": "DT:HotPotatoe",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.25
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "dungeontactics:hot_potatoe"
+        },
+        {
+          "entryName": "DT:FireWater",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:fire_water"
+        },
+        {
+          "entryName": "DT:BoBS",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.25
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "dungeontactics:boots_of_blinding_speed"
+        },
+        {
+          "entryName": "DT:IcarusRing",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:icarus_ring"
+        },
+        {
+          "entryName": "megaloot:weaponcase_common",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "megaloot:weaponcase_common"
+        },
+        {
+          "entryName": "megaloot:weaponcase_rare",
+          "weight": 7,
+          "quality": 0,
+          "type": "item",
+          "name": "megaloot:weaponcase_rare"
+        },
+        {
+          "entryName": "megaloot:weaponcase_epic",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "megaloot:weaponcase_epic"
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 4.0
+      }
+    },
+    {
+      "name": "nether_bridge_blazing_fishing_pole",
+      "entries": [
+        {
+          "entryName": "nether_bridge_blazing_fishing_pole",
+          "weight": 1,
+          "quality": 1,
+          "type": "loot_table",
+          "name": "advanced-fishing:inject/nether_bridge"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

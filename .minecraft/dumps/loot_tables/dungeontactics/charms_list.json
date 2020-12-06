@@ -1,0 +1,80 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "dungeontactics:charm_toxic",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:charm_toxic"
+        },
+        {
+          "entryName": "dungeontactics:charm_sapping",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:charm_sapping"
+        },
+        {
+          "entryName": "dungeontactics:charm_heavy",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:charm_heavy"
+        },
+        {
+          "entryName": "dungeontactics:charm_emaciated",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:charm_emaciated"
+        },
+        {
+          "entryName": "dungeontactics:charm_unintelligible",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:charm_unintelligible"
+        },
+        {
+          "entryName": "dungeontactics:charm_darkened",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:charm_darkened"
+        },
+        {
+          "entryName": "dungeontactics:charm_famine",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:charm_famine"
+        },
+        {
+          "entryName": "dungeontactics:charm_barren",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:charm_barren"
+        },
+        {
+          "entryName": "dungeontactics:charm_searing",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:charm_searing"
+        },
+        {
+          "entryName": "dungeontactics:charm_bleak",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:charm_bleak"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}
